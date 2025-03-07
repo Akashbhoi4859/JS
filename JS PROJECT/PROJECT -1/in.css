@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(80, 197, 51);
+    color:rgb(149, 155, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gra {
+    background-color: #990f72;
+    padding: 30px;
+    border-radius: 10px;
+
+    text-align: center;
+    width: 400px;
+  
+   
+}
+
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(237, 62, 141);
+
+}
+
+.interest p {
+    margin: 10px 0;
+    font-size: 20px;
+   
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    
+   
+}
+
+
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+   
+  
+}
+
+
+
+#no {
+    font-size: 20px;
+    margin-top: 20px;
+    color:rgb(240, 46, 237);
+    text-shadow: 0 0 10px rgb(95, 144, 36);
+}
