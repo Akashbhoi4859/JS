@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background-color: antiquewhite;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    margin: 70px auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+    height:60vh;
+    position: relative;
+}
+.slide1{
+    background-image: url(https://picsum.photos/id/234/1200/400);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slide2{
+    background-image: url(https://picsum.photos/id/222/1200/400);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slide3{
+    background-image: url(https://picsum.photos/id/983/1200/400);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slide4{
+
+    background-image: url(https://picsum.photos/id/283/1200/400);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.slide5{
+    background-image: url(https://picsum.photos/id/407/1200/400);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slide{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.slide p{
+    font-size:30px;
+    color:white;
+    padding-top:200px;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    transform: translateY(300px);
+    font-size: 25px;
+    padding: 20px;
+}
+.btn button{
+    font-size: 1020px;
+    height: 100px;
+    width: 60px;
+    color: rgb(103, 101, 98);
+    border-radius: 20px;
+}
