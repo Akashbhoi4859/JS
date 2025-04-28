@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #da5588;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e3eeff;
+    padding:40px;
+    border-radius: 150px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 350px;
+    max-width: 90%;
+    text-align: center;
+}
+
+h2 {
+    color: #cd56a9;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.main span {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #cd56a9;
+}
+
+.main input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #e0e7ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: #c7d2fe;
+}
+
+.cal button {
+    padding: 10px 25px;
+    background-color: #f779dc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cal button:hover {
+    background-color: #6e6d70;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #111827;
+}
+
+.result span {
+    font-weight: bold;
+    color: #2563eb;
+}
